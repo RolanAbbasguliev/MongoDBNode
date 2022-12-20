@@ -845,7 +845,7 @@ async function main() {
     } catch (e) {
         console.log("ERROR", e);
     } finally {
-
+        const close = await client.close();
     }
 }
 
