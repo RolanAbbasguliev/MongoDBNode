@@ -16,7 +16,7 @@ async function createCollection() {
         await client.db().createCollection("Order");
         await client.db().createCollection("Payment");
         await client.db().createCollection("Product");
-        await client.db().createCollection("StatusOr[der");
+        await client.db().createCollection("StatusOrder");
 
     } catch (e) {
         console.log(e);
